@@ -124,6 +124,10 @@ html.dark .account-link {
   color: #bd93f9;
 }
 
+html.dark .conversation-more {
+  color: #8be9fd;
+}
+
 html.dark .txt-mute {
   color: #6272a4;
 }
