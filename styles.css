@@ -1,0 +1,172 @@
+/* TEXT AND BACKGROUNDS */
+html.dark {
+  color: #f8f8f2;
+}
+
+html.dark .stream-item {
+  border-color: #44475a;
+  background-color: #282a36;
+}
+
+html.dark .scroll-styled-h, html.dark .scroll-styled-v {
+  scrollbar-color: #44475a transparent !important;
+}
+
+html.dark .app-columns-container, html.dark .app-content {
+  background-color: #282a36;
+}
+
+html.dark .column {
+  background-color: #282a36;
+}
+
+html.dark .column-panel {
+  background-color: #282a36;
+}
+
+html.dark .quoted-tweet {
+  border-color: #44475a;
+  color: #b8b8b2;
+}
+
+html.dark .detail-view-inline {
+  background-color: #282a36;
+  border-color: #282a36;
+}
+
+html.dark .scroll-conversation {
+  background-color: #282a36;
+}
+
+html.dark .tweet-stats {
+  border-color: #44475a;
+}
+
+html.dark .tweet-detail-actions {
+  border-color: #44475a;
+}
+
+html.dark .detail-view-inline-text {
+  border-color: #44475a;
+  background-color: #44475a;
+  color: #f8f8f2;
+}
+
+/*
+html.dark div.column-panel {
+  border-left: #44475a 2px solid;
+  border-right: #44475a 2px solid;
+}
+*/
+
+/* COLUMN HEADER */
+html.dark .column-header {
+  border-color: #44475a;
+  /*border-color: #ff79c6;*/
+}
+
+html.dark .column-header, html.dark .column-header-temp {
+  background-color: #282a36;
+}
+
+html.dark .column-drag-handle {
+  opacity: 33%;
+}
+
+html.dark .column-number {
+  color: #6272a4;
+}
+
+html.dark .column-header .column-type-icon {
+  color: #6272a4;
+}
+
+html.dark .column-header-link {
+  color: #8be9fd;
+}
+
+html.dark .is-new .column-type-icon {
+  color: #ff79c6;
+}
+
+html.dark .more-tweets-glow {
+  background: radial-gradient(ellipse farthest-corner at 50% 100%,#ff79c6 0,#ff79c6 25%,hsla(0,0%,100%,0) 75%);
+}
+
+html.dark .thread {
+  background-color: #44475a;
+}
+
+/* INLINE REPLY */
+html.dark .inline-reply {
+  background-color: #6272a4;
+}
+
+
+/* ELEMENTS */
+html.dark .color-twitter-blue {
+  color: #8be9fd;
+}
+
+html.dark .other-replies {
+  color: #6272a4;
+}
+
+html.dark .other-replies-link, html.dark .other-replies-link:hover {
+  color: #bd93f9;
+}
+
+html.dark a:active, html.dark a:focus, html.dark a:hover {
+  color: #8be9fd;
+}
+
+html.dark .account-link {
+  color: #bd93f9;
+}
+
+html.dark .txt-mute {
+  color: #6272a4;
+}
+
+html.dark .txt-mute a:not(:hover):not(:focus) {
+  color: #6272a4;
+}
+
+html.dark a {
+  color: #8be9fd;
+}
+
+html.dark .stat-word {
+  color: #6272a4;
+}
+
+html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action, html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action, html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action,
+html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action,
+html.dark .tweet-action {
+  color: #6272a4 !important;
+}
+
+html.dark .dm-action:active .icon-reply, html.dark .dm-action:active .reply-count, html.dark .dm-action:focus .icon-reply, html.dark .dm-action:focus .reply-count, html.dark .dm-action:hover .icon-reply, html.dark .dm-action:hover .reply-count, html.dark .is-selected.dm-action .icon-reply, html.dark .is-selected.dm-action .reply-count, html.dark .is-selected.tweet-detail-action .icon-reply, html.dark .is-selected.tweet-detail-action .reply-count, html.dark .tweet-action.is-selected .icon-reply, html.dark .tweet-action.is-selected .reply-count, html.dark .tweet-action:active .icon-reply, html.dark .tweet-action:active .reply-count, html.dark .tweet-action:focus .icon-reply, html.dark .tweet-action:focus .reply-count, html.dark .tweet-action:hover .icon-reply, html.dark .tweet-action:hover .reply-count, html.dark .tweet-detail-action:active .icon-reply, html.dark .tweet-detail-action:active .reply-count, html.dark .tweet-detail-action:focus .icon-reply, html.dark .tweet-detail-action:focus .reply-count, html.dark .tweet-detail-action:hover .icon-reply, html.dark .tweet-detail-action:hover .reply-count {
+  color: #8be9fd;
+}
+
+html.dark .dm-action:active .icon-retweet, html.dark .dm-action:active .retweet-count, html.dark .dm-action:focus .icon-retweet, html.dark .dm-action:focus .retweet-count, html.dark .dm-action:hover .icon-retweet, html.dark .dm-action:hover .retweet-count, html.dark .is-selected.dm-action .icon-retweet, html.dark .is-selected.dm-action .retweet-count, html.dark .is-selected.tweet-detail-action .icon-retweet, html.dark .is-selected.tweet-detail-action .retweet-count, html.dark .tweet-action.is-selected .icon-retweet, html.dark .tweet-action.is-selected .retweet-count, html.dark .tweet-action:active .icon-retweet, html.dark .tweet-action:active .retweet-count, html.dark .tweet-action:focus .icon-retweet, html.dark .tweet-action:focus .retweet-count, html.dark .tweet-action:hover .icon-retweet, html.dark .tweet-action:hover .retweet-count, html.dark .tweet-detail-action:active .icon-retweet, html.dark .tweet-detail-action:active .retweet-count, html.dark .tweet-detail-action:focus .icon-retweet, html.dark .tweet-detail-action:focus .retweet-count, html.dark .tweet-detail-action:hover .icon-retweet, html.dark .tweet-detail-action:hover .retweet-count {
+  color: #50fa7b;
+}
+
+html.dark .dm-action:active .icon-favorite, html.dark .dm-action:active .like-count, html.dark .dm-action:focus .icon-favorite, html.dark .dm-action:focus .like-count, html.dark .dm-action:hover .icon-favorite, html.dark .dm-action:hover .like-count, html.dark .is-selected.dm-action .icon-favorite, html.dark .is-selected.dm-action .like-count, html.dark .is-selected.tweet-detail-action .icon-favorite, html.dark .is-selected.tweet-detail-action .like-count, html.dark .tweet-action.is-selected .icon-favorite, html.dark .tweet-action.is-selected .like-count, html.dark .tweet-action:active .icon-favorite, html.dark .tweet-action:active .like-count, html.dark .tweet-action:focus .icon-favorite, html.dark .tweet-action:focus .like-count, html.dark .tweet-action:hover .icon-favorite, html.dark .tweet-action:hover .like-count, html.dark .tweet-detail-action:active .icon-favorite, html.dark .tweet-detail-action:active .like-count, html.dark .tweet-detail-action:focus .icon-favorite, html.dark .tweet-detail-action:focus .like-count, html.dark .tweet-detail-action:hover .icon-favorite, html.dark .tweet-detail-action:hover .like-count {
+  color: #ff5555;
+}
+
+html.dark .icon-more:hover,
+html.dark .icon-more:active {
+  color: #f1fa8c;
+}
+
+html.dark .icon-retweet-color, html.dark .icon-submit-color {
+  color: #50fa7b;
+}
+
+html.dark a[rel='user'] {
+  color: #bd93f9;
+}
