@@ -21,6 +21,55 @@ html.dark .Button.btn-fav.s-favorited:hover, html.dark .Button.Button--primary.i
   color: #f8f8f2;
 }
 
+html.dark .app-search-fake:hover {
+  background-color: #cc4693;
+}
+
+html.dark .column-nav-updates {
+  color: #ff79c6;
+}
+
+html.dark .column-nav-link {
+  color: #6272a4;
+}
+
+html.dark .column-nav-link.is-selected,
+html.dark .column-nav-link:hover,
+html.dark .app-nav-tab:hover,
+html.btd-on.dark .btd-settings-btn:hover {
+  color: #f8f8f2;
+}
+
+html.dark .column-nav-link::after {
+  color: #f8f8f2;
+}
+
+html.dark .column-nav-link .column-heading {
+  color: #f8f8f2;
+}
+
+html.dark .column-nav-link .attribution {
+  color: #6272a4;
+}
+
+html.dark .column-nav-flyout .column-nav-item .column-heading {
+  color: #f8f8f2;
+}
+
+html.dark .column-nav-flyout .column-nav-item .attribution {
+  color: #6272a4;
+}
+
+html.dark .app-nav-link,
+html.dark .app-nav-tab,
+html.btd-on.dark .btd-settings-btn .icon {
+  color: #6272a4;
+}
+
+html.dark .app-nav-link.is-selected, html.dark .app-nav-link:hover {
+  color: #f8f8f2;
+}
+
 /*
 html.dark .app-search-input {
   border: red;
@@ -89,6 +138,21 @@ html.dark .detail-view-inline-text {
   border-color: #44475a;
   background-color: #44475a;
   color: #f8f8f2;
+}
+
+html.dark .app-search-fake,
+html.dark .search-input-clear-search, html.dark .search-input-perform-search, html.dark .search-input-spinner {
+  color: #ff79c6;
+}
+
+html.dark .Button.is-hover, html.dark .Button:hover, html.dark button.is-hover, html.dark button:hover, html.dark input.is-hover[type="button"], html.dark input:hover[type="button"] {
+  color: #f8f8f2;
+  background-color: #ff79c6;
+}
+
+html.dark .Button.is-active, html.dark .Button:active, html.dark button.is-active, html.dark button:active, html.dark input.is-active[type="button"], html.dark input:active[type="button"] {
+  box-shadow: 0 0 0 2px #ffbce2,0 0 0 4px #ff79c6;
+  background: #f8f8f2;
 }
 
 /*
