@@ -1,0 +1,25 @@
+{
+  "name": "dracula-btd-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.26.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass source/styles.scss build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjhorrex/dracula-btd-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjhorrex/dracula-btd-theme/issues"
+  },
+  "homepage": "https://github.com/pjhorrex/dracula-btd-theme#readme"
+}
